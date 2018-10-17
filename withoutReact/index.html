@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Snowden's decryptor</title>
+
+  <link rel="preload" href="./index.js" as="script">
+
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <main class="task">
+    <h1 class="task__title">Showden`s decryptor</h1>
+    <form class="task__form">
+      <textarea name="initialText" id="initialText" class="task__crypted-data" placeholder="Type your encrypted message..."></textarea>
+      <button type="button" class="task__decrypt-button">
+        Decrypt that!
+      </button>
+    </form>
+    <p class="task__decrypted-data"></p>
+  </main>
+  <script src="./index.js"></script>
+</body>
+
+</html>
